@@ -16,7 +16,7 @@ export const Sidebar: FC = (): ReactElement => {
         width: '100%',
         backgroundColor: 'background.paper',
         display: 'flex',
-        justifyContent: 'çenter',
+        justifyContent: 'center',
         flexDirection: 'column',
         alignItems: 'center',
       }}

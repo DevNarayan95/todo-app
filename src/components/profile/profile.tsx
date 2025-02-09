@@ -11,7 +11,12 @@ export const Profile: FC<IProfile> = (props): ReactElement => {
   const { name = 'John' } = props;
 
   return (
-    <Box display="flex" flexDirection="column" justifyContent="center" alignItems="center">
+    <Box
+      display="flex"
+      flexDirection="column"
+      justifyContent="center"
+      alignItems="center"
+    >
       <Avatar
         sx={{
           width: '96px',
